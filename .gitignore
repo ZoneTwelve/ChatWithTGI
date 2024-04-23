@@ -159,8 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Remove the model config on /model
-model/*
+config.json
+special_tokens_map.json
+tokenizer.model
+tokenizer_config.json
 
 
 *.log
