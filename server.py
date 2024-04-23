@@ -55,7 +55,7 @@ def main(tokenizer_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Gradio WebUI with TGI')
-    parser.add_argument('--tokenizer_path', type=str, default='./model', help='Path to the tokenizer')
+    parser.add_argument('--tokenizer', type=str, default='./model', help='Path to the tokenizer')
     args = parser.parse_args()
 
-    main(args.tokenizer_path)
+    main(args.tokenizer)
